@@ -8,7 +8,7 @@ import html
 if platform.system() == "Windows":
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
-BOT_TOKEN = "7783506104:AAE-eH3yGUFMu8Md76g01h4Uqred1yIs494"
+BOT_TOKEN = "BOT_TOKEN"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
